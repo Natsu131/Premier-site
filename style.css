@@ -1,0 +1,64 @@
+/* Définition des polices personnalisées */
+
+@font-face{
+    font-family: 'BallparkWeiner';
+    src: url('sitesweb/fontss/ballpark.eot');
+    src: url('sitesweb/fonts/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('sitesweb/fonts/ballpark.woff') format('woff'),
+         url('sitesweb/fonts/ballpark.ttf') format('truetype'),
+         url('sitesweb/fonts/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Dayrom';
+    src: url('sitesweb/fonts/dayrom.eot');
+    src: url('sitesweb/fonts/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('sitesweb/fonts/dayrom.woff') format('woff'),
+         url('sitesweb/fonts/dayrom.ttf') format('truetype'),
+         url('sitesweb/fonts/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#bloc_page{
+    max-width: 1000px;
+    margin: auto;
+}
+section h1, footer h1, nav a
+{
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+nav ul
+{
+    display: flex;
+    list-style-type: none;
+    float: right; 
+    align-items  
+}
+nav li{
+    margin-right: 15px; 
+}
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 1px; /*Je ne comprendspas l'utilité de ce padding*/
+    text-decoration: none;
+}
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+#banniere_image
+{
+    background: url("../sitesweb/tpfinal/images/sanfrancisco.jpg"),no-repeat;
+    margin-bottom: 25px;
+    height: 200px;
+    border-radius: 10px;
+    
+}
